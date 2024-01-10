@@ -1,8 +1,8 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://brayheart.github.io/react-portfolio",
+  "private": false,
+  "homepage": "https:brayheart.github.io/react-portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
