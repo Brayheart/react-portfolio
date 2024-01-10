@@ -4,7 +4,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      opacity: {
+        '0': '0',
+        '100': '1',
+      },
+      animation: {
+        'fade-in-up': 'fadeInUp 1s ease-out',
+      },
+    },
   },
   plugins: [],
 }

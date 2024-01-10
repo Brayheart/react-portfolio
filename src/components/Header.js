@@ -1,0 +1,51 @@
+import React from 'react';
+import TylerProfile from './TylerProfile.jpeg'
+import { Link } from 'react-router-dom';
+
+const Portfolio = () => {
+  return (
+    <div className="bg-black text-white">
+      {/*
+      <nav className="bg-black py-3">
+        <div className="max-w-screen-lg mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
+          <a href="#home" className="text-3xl font-bold">T</a>
+          <div className="flex space-x-4">
+            <a href="#portfolio" className="hover:text-gray-300">Portfolio</a>
+            <a href="#blog" className="hover:text-gray-300">Blog</a>
+          </div>
+        </div>
+      </nav>
+       */}
+      {/* Hero Section */}
+      <div className="flex px-4 sm:px-6 lg:px-8 py-12 md:py-24 mx-auto max-w-screen-lg">
+        <div>
+          <h1 className="text-5xl md:text-6xl font-bold animation-fade-in-up">Tyler Bray</h1>
+          <p className="text-xl md:text-2xl mt-3">Front End Developer | Tech Enthusiast & Lifelong Learner</p>
+          <p className="my-5">Crafting, developing, and streamlining the digital experience: Designing, constructing, and optimizing the Web.</p>
+          <div className="flex flex-col my-5 sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+            <button className="px-6 py-2 border border-gray-700 text-gray-300 hover:bg-gray-700 hover:text-white transition duration-300">
+              <Link to="/about">More About Me </Link> 
+            </button>
+            <a href="./TylerCV.pdf" class="btn btn-outline-light" target="_blank">
+              <button className="px-6 py-2 bg-gray-700 hover:bg-gray-600 transition duration-300">
+                Download Resume
+              </button>
+            </a>
+          </div>
+          <ul class="flex flex-row gap-3">
+            <li>
+              <a target="_blank" rel="noreferrer" class="group gap-1 md:inline-flex" href="https://github.com/Brayheart" aria-label="github link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github h-5 w-5 hover:fill-white cursor-pointer"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a>
+            </li>
+            <li>
+              <a target="_blank" rel="noreferrer" class="group gap-1 md:inline-flex" href="https://www.linkedin.com/in/tyler-hoyt-bray/" aria-label="linkedin link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin h-5 w-5 hover:fill-white cursor-pointer"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+            </li>
+          </ul>
+        </div>
+      
+        <img src={TylerProfile} alt="Profile" className="rounded-full w-32 h-32 md:w-48 md:h-48 lg:w-64 lg:h-64" /> 
+      </div>
+    </div>
+  );
+};
+
+export default Portfolio;
