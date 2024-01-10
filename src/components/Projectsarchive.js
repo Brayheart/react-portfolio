@@ -6,18 +6,18 @@ const ProjectsArchive = () => {
 <div className="bg-black text-white min-h-screen">
   {/* Go Back Button */}
   <div className="container mx-auto px-4 py-8">
-    <div className="mb-8">
-      <Link to="/" className="text-blue-500 hover:text-blue-300 flex items-center font-semibold">
+    <div className="mb-8 animate-fade-left">
+      <Link to="/" className="text-gray-400 hover:text-gray-300 items-center font-semibold">
         ← Go Back
       </Link>
     </div>
 
     {/* Current Focus Section */}
-    <h2 className="text-2xl font-bold mb-4">Current Focus</h2>
+    <h2 className="text-2xl font-bold mb-4 animate-fade-left">Current Focus</h2>
     <div className="grid items-center justify-center xl:grid-cols-3 gap-2 pt-2 lg:pt-5 pb-8 px-0 sm:px-2">
       <div className="space-y-4">
         {/* Individual Project */}
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-4 animate-fade-left animate-delay-[200ms]">
           <div className="shrink-0">
             {/* <span className="text-3xl">🎬</span> */}
           </div>
@@ -31,11 +31,11 @@ const ProjectsArchive = () => {
     </div>
 
     {/* Web Applications Section */}
-    <h2 className="text-2xl font-bold mb-4">Web Applications</h2>
+    <h2 className="text-2xl font-bold mb-4 animate-fade-left">Web Applications</h2>
     <div className="grid items-center justify-center xl:grid-cols-3 gap-2 pt-2 lg:pt-5 pb-8 px-0 sm:px-2">
       <div className="space-y-4">
         {/* Individual Project */}
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-4 animate-fade-left animate-delay-[200ms]">
           <div className="shrink-0">
             {/* <span className="text-3xl">♟️</span>  */}
           </div>
@@ -49,11 +49,11 @@ const ProjectsArchive = () => {
     </div>
 
     {/* DevTools Section */}
-    <h2 className="text-2xl font-bold mb-4">DevTools</h2>
+    <h2 className="text-2xl font-bold mb-4 animate-fade-left">DevTools</h2>
     <div className="grid items-center justify-center xl:grid-cols-3 gap-2 pt-2 lg:pt-5 pb-8 px-0 sm:px-2">
       <div className="space-y-4">
         {/* Individual Project */}
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-4 animate-fade-left animate-delay-[200ms]">
           <div className="shrink-0">
             {/* <span className="text-3xl">🛠️</span>  */}
           </div>

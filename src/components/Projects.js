@@ -33,7 +33,7 @@ const Projects = () => {
                 </article>
             </a>
             <div className="mb-4 px-4 animate-fade-left animate-delay-[500ms]">
-                <button className="text-gray-500 hover:text-gray-300"><Link to="/projects">See Full Projects Archive</Link> &#x2192; </button>
+                <button className="text-gray-400 hover:text-gray-300"><Link to="/projects">See Full Projects Archive</Link> &#x2192; </button>
             </div>
         </nav>
     </div>
