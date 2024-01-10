@@ -1,6 +1,7 @@
 import React from 'react';
 // import TylerProfile from './TylerProfile.jpeg'
 import { Link } from 'react-router-dom';
+import Projects from './Projects';
 
 const Portfolio = () => {
   return (
@@ -17,7 +18,7 @@ const Portfolio = () => {
       </nav>
        */}
       {/* Hero Section */}
-      <div className="flex sm:px-6 lg:px-8 py-12 md:py-24 pb-8 mx-auto max-w-screen-lg">
+      <div className="flex sm:px-6 lg:px-8 py-12 md:pt-24 pb-6 pb-8 mx-auto max-w-screen-lg">
         <div>
           <h1 className="text-5xl md:text-6xl font-bold animate-fade-up">Tyler Bray</h1>
           <p className="text-xl md:text-2xl mt-3 animate-fade-up animate-delay-[200ms]">Front End Developer | Tech Enthusiast & Lifelong Learner</p>
@@ -41,8 +42,9 @@ const Portfolio = () => {
             </li>
           </ul>
         </div>
-        <img src="./bust.png" className='w-1/4 h-auto  animate-fade-up animate-delay-[500ms]'></img>
+        <img src="./bust.png" className='w-1/3 h-auto  animate-fade-up animate-delay-[500ms]'></img>
       </div>
+      <Projects/>
     </div>
   );
 };
