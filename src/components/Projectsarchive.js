@@ -11,59 +11,116 @@ const ProjectsArchive = () => {
         ← Go Back
       </Link>
     </div>
-
     {/* Current Focus Section */}
-    <h2 className="text-2xl font-bold mb-4 animate-fade-left">Current Focus</h2>
-    <div className="grid items-center justify-center xl:grid-cols-3 gap-2 pt-2 lg:pt-5 pb-8 px-0 sm:px-2">
-      <div className="space-y-4">
-        {/* Individual Project */}
-        <div className="flex items-center space-x-4 animate-fade-left animate-delay-[200ms]">
-          <div className="shrink-0">
-            {/* <span className="text-3xl">🎬</span> */}
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold">React HLS Player</h3>
-            <p className="text-gray-400">A custom react hls player inspired by YouTube with bitrate options if available.</p>
-          </div>
-        </div>
-        {/* ... More projects */}
-      </div>
+    <h2 className="text-2xl font-bold mb-4 animate-fade-left">Page Design</h2>
+    <div className="grid items-center justify-center xl:grid-cols-3 gap-5 pt-2 lg:pt-5 pb-8 px-0 sm:px-2">
+      <a target="_blank" rel="noreferrer" href="https://brayheart.github.io/Mountain-landing-page/" style={{Opacity: '1', Transform: 'none'}}>
+        <article class="relative flex flex-row gap-4 items-center px-4 z-1 rounded-md h-[100px] w-[300px] sm:w-[400px] hover:bg-secondary/50 hover:bg-gray-800 hover:text-white transition duration-150 animate-fade-left animate-delay-[200ms]">
+            <header class="flex flex-col gap-1">
+                <h2 class="text-xl font-bold tracking-tight md:text-lg text-white">Los Angeles Mountains</h2>
+                <p class="text-xs sm:text-sm text-zinc-400 sm:text-md">Showcasing an interactive landing page experience for a fictional outdoor adventure guide.</p>
+            </header>
+        </article>
+      </a>
+      <a target="_blank" rel="noreferrer" href="https://brayheart.github.io/Mountain-landing-page/" style={{Opacity: '1', Transform: 'none'}}>
+        <article class="relative flex flex-row gap-4 items-center px-4 z-1 rounded-md h-[100px] w-[300px] sm:w-[400px] hover:bg-secondary/50 hover:bg-gray-800 hover:text-white transition duration-150 animate-fade-left animate-delay-[200ms]">
+            <header class="flex flex-col gap-1">
+                <h2 class="text-xl font-bold tracking-tight md:text-lg text-white">Los Angeles Mountains</h2>
+                <p class="text-xs sm:text-sm text-zinc-400 sm:text-md">Showcasing an interactive landing page experience for a fictional outdoor adventure guide.</p>
+            </header>
+        </article>
+      </a>
+      <a target="_blank" rel="noreferrer" href="https://brayheart.github.io/Mountain-landing-page/" style={{Opacity: '1', Transform: 'none'}}>
+        <article class="relative flex flex-row gap-4 items-center px-4 z-1 rounded-md h-[100px] w-[300px] sm:w-[400px] hover:bg-secondary/50 hover:bg-gray-800 hover:text-white transition duration-150 animate-fade-left animate-delay-[200ms]">
+            <header class="flex flex-col gap-1">
+                <h2 class="text-xl font-bold tracking-tight md:text-lg text-white">Los Angeles Mountains</h2>
+                <p class="text-xs sm:text-sm text-zinc-400 sm:text-md">Showcasing an interactive landing page experience for a fictional outdoor adventure guide.</p>
+            </header>
+        </article>
+      </a>
+      <a target="_blank" rel="noreferrer" href="https://brayheart.github.io/Mountain-landing-page/" style={{Opacity: '1', Transform: 'none'}}>
+        <article class="relative flex flex-row gap-4 items-center px-4 z-1 rounded-md h-[100px] w-[300px] sm:w-[400px] hover:bg-secondary/50 hover:bg-gray-800 hover:text-white transition duration-150 animate-fade-left animate-delay-[200ms]">
+            <header class="flex flex-col gap-1">
+                <h2 class="text-xl font-bold tracking-tight md:text-lg text-white">Los Angeles Mountains</h2>
+                <p class="text-xs sm:text-sm text-zinc-400 sm:text-md">Showcasing an interactive landing page experience for a fictional outdoor adventure guide.</p>
+            </header>
+        </article>
+      </a>
+      <a target="_blank" rel="noreferrer" href="https://brayheart.github.io/Mountain-landing-page/" style={{Opacity: '1', Transform: 'none'}}>
+        <article class="relative flex flex-row gap-4 items-center px-4 z-1 rounded-md h-[100px] w-[300px] sm:w-[400px] hover:bg-secondary/50 hover:bg-gray-800 hover:text-white transition duration-150 animate-fade-left animate-delay-[200ms]">
+            <header class="flex flex-col gap-1">
+                <h2 class="text-xl font-bold tracking-tight md:text-lg text-white">Los Angeles Mountains</h2>
+                <p class="text-xs sm:text-sm text-zinc-400 sm:text-md">Showcasing an interactive landing page experience for a fictional outdoor adventure guide.</p>
+            </header>
+        </article>
+      </a>
+      <a target="_blank" rel="noreferrer" href="https://brayheart.github.io/Mountain-landing-page/" style={{Opacity: '1', Transform: 'none'}}>
+        <article class="relative flex flex-row gap-4 items-center px-4 z-1 rounded-md h-[100px] w-[300px] sm:w-[400px] hover:bg-secondary/50 hover:bg-gray-800 hover:text-white transition duration-150 animate-fade-left animate-delay-[200ms]">
+            <header class="flex flex-col gap-1">
+                <h2 class="text-xl font-bold tracking-tight md:text-lg text-white">Los Angeles Mountains</h2>
+                <p class="text-xs sm:text-sm text-zinc-400 sm:text-md">Showcasing an interactive landing page experience for a fictional outdoor adventure guide.</p>
+            </header>
+        </article>
+      </a>
+
     </div>
 
     {/* Web Applications Section */}
-    <h2 className="text-2xl font-bold mb-4 animate-fade-left">Web Applications</h2>
-    <div className="grid items-center justify-center xl:grid-cols-3 gap-2 pt-2 lg:pt-5 pb-8 px-0 sm:px-2">
-      <div className="space-y-4">
-        {/* Individual Project */}
-        <div className="flex items-center space-x-4 animate-fade-left animate-delay-[200ms]">
-          <div className="shrink-0">
-            {/* <span className="text-3xl">♟️</span>  */}
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold">Chess Thing</h3>
-            <p className="text-gray-400">A modern chess web application built with performance and scale in mind.</p>
-          </div>
-        </div>
-        {/* ... More projects */}
-      </div>
+    <h2 className="text-2xl font-bold mb-4 animate-fade-left">UI Elements</h2>
+    <div className="grid items-center justify-center xl:grid-cols-3 gap-5 pt-2 lg:pt-5 pb-8 px-0 sm:px-2">
+    <a target="_blank" rel="noreferrer" href="https://brayheart.github.io/Mountain-landing-page/" style={{Opacity: '1', Transform: 'none'}}>
+        <article class="relative flex flex-row gap-4 items-center px-4 z-1 rounded-md h-[100px] w-[300px] sm:w-[400px] hover:bg-secondary/50 hover:bg-gray-800 hover:text-white transition duration-150 animate-fade-left animate-delay-[200ms]">
+            <header class="flex flex-col gap-1">
+                <h2 class="text-xl font-bold tracking-tight md:text-lg text-white">Los Angeles Mountains</h2>
+                <p class="text-xs sm:text-sm text-zinc-400 sm:text-md">Showcasing an interactive landing page experience for a fictional outdoor adventure guide.</p>
+            </header>
+        </article>
+      </a>
+    <a target="_blank" rel="noreferrer" href="https://brayheart.github.io/Mountain-landing-page/" style={{Opacity: '1', Transform: 'none'}}>
+        <article class="relative flex flex-row gap-4 items-center px-4 z-1 rounded-md h-[100px] w-[300px] sm:w-[400px] hover:bg-secondary/50 hover:bg-gray-800 hover:text-white transition duration-150 animate-fade-left animate-delay-[200ms]">
+            <header class="flex flex-col gap-1">
+                <h2 class="text-xl font-bold tracking-tight md:text-lg text-white">Los Angeles Mountains</h2>
+                <p class="text-xs sm:text-sm text-zinc-400 sm:text-md">Showcasing an interactive landing page experience for a fictional outdoor adventure guide.</p>
+            </header>
+        </article>
+      </a>
     </div>
 
     {/* DevTools Section */}
-    <h2 className="text-2xl font-bold mb-4 animate-fade-left">DevTools</h2>
-    <div className="grid items-center justify-center xl:grid-cols-3 gap-2 pt-2 lg:pt-5 pb-8 px-0 sm:px-2">
-      <div className="space-y-4">
-        {/* Individual Project */}
-        <div className="flex items-center space-x-4 animate-fade-left animate-delay-[200ms]">
-          <div className="shrink-0">
-            {/* <span className="text-3xl">🛠️</span>  */}
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold">Another Tool</h3>
-            <p className="text-gray-400">Description of the tool or project related to development tools.</p>
-          </div>
-        </div>
-        {/* ... More projects */}
-      </div>
+    <h2 className="text-2xl font-bold mb-4 animate-fade-left">Engaging Features</h2>
+    <div className="grid items-center justify-center xl:grid-cols-3 gap-5 pt-2 lg:pt-5 pb-8 px-0 sm:px-2">
+      <a target="_blank" rel="noreferrer" href="https://brayheart.github.io/Mountain-landing-page/" style={{Opacity: '1', Transform: 'none'}}>
+        <article class="relative flex flex-row gap-4 items-center px-4 z-1 rounded-md h-[100px] w-[300px] sm:w-[400px] hover:bg-secondary/50 hover:bg-gray-800 hover:text-white transition duration-150 animate-fade-left animate-delay-[200ms]">
+            <header class="flex flex-col gap-1">
+                <h2 class="text-xl font-bold tracking-tight md:text-lg text-white">Los Angeles Mountains</h2>
+                <p class="text-xs sm:text-sm text-zinc-400 sm:text-md">Showcasing an interactive landing page experience for a fictional outdoor adventure guide.</p>
+            </header>
+        </article>  
+      </a>
+      <a target="_blank" rel="noreferrer" href="https://brayheart.github.io/Mountain-landing-page/" style={{Opacity: '1', Transform: 'none'}}>
+        <article class="relative flex flex-row gap-4 items-center px-4 z-1 rounded-md h-[100px] w-[300px] sm:w-[400px] hover:bg-secondary/50 hover:bg-gray-800 hover:text-white transition duration-150 animate-fade-left animate-delay-[200ms]">
+            <header class="flex flex-col gap-1">
+                <h2 class="text-xl font-bold tracking-tight md:text-lg text-white">Los Angeles Mountains</h2>
+                <p class="text-xs sm:text-sm text-zinc-400 sm:text-md">Showcasing an interactive landing page experience for a fictional outdoor adventure guide.</p>
+            </header>
+        </article>
+      </a>
+      <a target="_blank" rel="noreferrer" href="https://brayheart.github.io/Mountain-landing-page/" style={{Opacity: '1', Transform: 'none'}}>
+        <article class="relative flex flex-row gap-4 items-center px-4 z-1 rounded-md h-[100px] w-[300px] sm:w-[400px] hover:bg-secondary/50 hover:bg-gray-800 hover:text-white transition duration-150 animate-fade-left animate-delay-[200ms]">
+            <header class="flex flex-col gap-1">
+                <h2 class="text-xl font-bold tracking-tight md:text-lg text-white">Los Angeles Mountains</h2>
+                <p class="text-xs sm:text-sm text-zinc-400 sm:text-md">Showcasing an interactive landing page experience for a fictional outdoor adventure guide.</p>
+            </header>
+        </article>
+      </a>
+      <a target="_blank" rel="noreferrer" href="https://brayheart.github.io/Mountain-landing-page/" style={{Opacity: '1', Transform: 'none'}}>
+        <article class="relative flex flex-row gap-4 items-center px-4 z-1 rounded-md h-[100px] w-[300px] sm:w-[400px] hover:bg-secondary/50 hover:bg-gray-800 hover:text-white transition duration-150 animate-fade-left animate-delay-[200ms]">
+            <header class="flex flex-col gap-1">
+                <h2 class="text-xl font-bold tracking-tight md:text-lg text-white">Los Angeles Mountains</h2>
+                <p class="text-xs sm:text-sm text-zinc-400 sm:text-md">Showcasing an interactive landing page experience for a fictional outdoor adventure guide.</p>
+            </header>
+        </article>
+      </a>
     </div>
   </div>
 </div>
@@ -72,3 +129,4 @@ const ProjectsArchive = () => {
 };
 
 export default ProjectsArchive;
+
