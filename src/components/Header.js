@@ -24,9 +24,9 @@ const Portfolio = () => {
           <p className="text-xl md:text-2xl mt-3 animate-fade-up animate-delay-[200ms]">Front End Developer | Tech Enthusiast & Lifelong Learner</p>
           <p className="my-5 animate-fade-up animate-delay-[300ms]">Crafting, developing, and streamlining the digital experience: Designing, constructing, and optimizing the Web.</p>
           <div className="flex flex-col my-5 sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 animate-fade-up animate-delay-[400ms] animate-fade-up animate-delay-[500ms]">
-            <button className="px-6 py-2 border border-gray-700 text-gray-300 hover:bg-gray-700 hover:text-white transition duration-300 ">
-              <Link to="/about">More About Me </Link> 
-            </button>
+          <Link to="/about" className="px-6 py-2 border border-gray-700 text-gray-300 hover:bg-gray-700 hover:text-white transition duration-300">
+    More About Me
+</Link>
             <a href="./TylerCV.pdf" class="block w-full sm:w-auto" target="_blank">
               <button class="w-full px-6 py-2 bg-gray-700 hover:bg-gray-600 transition duration-300 text-white">
                 Download Resume
