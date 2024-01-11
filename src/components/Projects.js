@@ -7,7 +7,7 @@ const Projects = () => {
             <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold bg-clip-text text-white">Projects</h1>
             <p class="text-white/50">The best way to learn is to build stuff, so I build.</p>
         </header>
-        <nav class="container mx-auto bg-black grid items-center justify-center xl:grid-cols-3 gap-2 pt-2 lg:pt-5 pb-8 px-0 sm:px-2">
+        <nav class="container mx-auto bg-black grid items-center justify-center xl:grid-cols-3 gap-2 pt-2 lg:pt-5 pb-8 px-0 sm:px-2 text-center sm:text-start">
             <a target="_blank" rel="noreferrer" href="https://brayheart.github.io/Mountain-landing-page/" style={{Opacity: '1', Transform: 'none'}}>
                 <article class="relative flex flex-row gap-4 items-center px-4 z-1 rounded-md h-[100px] w-[300px] sm:w-[400px] hover:bg-secondary/50 hover:bg-gray-800 hover:text-white transition duration-150 animate-fade-left animate-delay-[200ms]">
                     <header class="flex flex-col gap-1">
