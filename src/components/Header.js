@@ -20,7 +20,7 @@ const Portfolio = () => {
       {/* Hero Section */}
       <div className="flex flex-col-reverse text-center md:flex-row items-center md:items-start justify-center md:justify-between py-12 sm:pt-24 sm:pb-8 px-4 lg:px-8 mx-auto max-w-screen-lg sm:text-start">
         <div>
-          <h1 className="text-5xl md:text-6xl font-bold animate-fade-up">Tyler Bray</h1>
+          <h1 className="text-5xl md:text-6xl font-bold animate-fade-up animate-delay-[100ms]">Tyler Bray</h1>
           <p className="text-xl md:text-2xl mt-3 animate-fade-up animate-delay-[200ms]">Front End Developer | Tech Enthusiast & Lifelong Learner</p>
           <p className="my-5 animate-fade-up animate-delay-[300ms]">Crafting, developing, and streamlining the digital experience: Designing, constructing, and optimizing the Web.</p>
           <div className="flex flex-col my-5 sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 animate-fade-up animate-delay-[400ms] animate-fade-up animate-delay-[500ms]">
@@ -42,7 +42,7 @@ const Portfolio = () => {
             </li>
           </ul>
         </div>
-        <img src="./bust2-min.webp" className='w-1/3 h-auto  animate-fade-up animate-delay-[500ms]'></img>
+        <img src="./bust2-min.webp" className='w-1/3 h-auto  animate-fade-up sm:animate-delay-[500ms]'></img>
       </div>
       <Projects/>
     </div>
