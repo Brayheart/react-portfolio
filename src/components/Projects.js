@@ -13,7 +13,7 @@ const Projects = () => {
                 <i class="fa-solid fa-mountain fa-2x"></i>
                     <header class="flex flex-col gap-1 text-start">
                         <h2 class="text-xl font-bold tracking-tight md:text-lg text-white">Los Angeles Mountains</h2>
-                        <p class="text-xs sm:text-sm text-zinc-400 sm:text-md">Showcasing an interactive landing page experience for a fictional outdoor adventure guide.</p>
+                        <p class="text-xs sm:text-sm text-zinc-400 sm:text-md">An interactive landing page experience for a fictional outdoor adventure guide.</p>
                     </header>
                 </article>
             </a>
