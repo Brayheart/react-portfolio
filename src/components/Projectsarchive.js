@@ -104,15 +104,6 @@ const ProjectsArchive = () => {
             </header>
         </article>
       </a>
-      <a target="_blank" rel="noreferrer" href="https://brayheart.github.io/movie-app/" className="hidden sm:visible" style={{Opacity: '1', Transform: 'none'}}>
-        <article class="relative flex flex-row gap-5 items-center px-4 z-1 rounded-md h-[100px] w-[300px] sm:w-[400px] hover:bg-secondary/50 hover:bg-gray-800 hover:text-white transition duration-150 animate-fade-left animate-delay-[200ms]">
-            <i class="fa-solid fa-film fa-2x"></i>
-            <header class="flex flex-col gap-1">
-                <h2 class="text-xl font-bold tracking-tight md:text-lg text-white">Plot Peek</h2>
-                <p class="text-xs sm:text-sm text-zinc-400 sm:text-md">Summarize cinematic tales with a concise, engaging movie summary tool.</p>
-            </header>
-        </article>
-      </a>
     </div>
   </div>
 </div>
