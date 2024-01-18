@@ -3,6 +3,7 @@ import Header from './components/header';
 import AboutMe from './components/Aboutme';
 import { HashRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import ProjectsArchive from './components/Projectsarchive'; 
+import './index.css'
 
 function ScrollToTop() {
   const { pathname } = useLocation();
