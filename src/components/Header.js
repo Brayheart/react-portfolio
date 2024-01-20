@@ -42,7 +42,7 @@ const Portfolio = () => {
             </li>
           </ul>
         </div>
-        <img src="./bust2-min.webp" className='w-1/3 h-auto  animate-fade-up sm:animate-delay-[500ms]'></img>
+        <img src="./bust2-min.webp" className='w-1/3 h-auto animate-fade-up sm:animate-delay-[500ms] md:animate-delay-[0ms]'></img>
       </div>
       <Projects/>
     </div>

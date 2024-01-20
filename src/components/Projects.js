@@ -35,7 +35,7 @@ const Projects = () => {
                     </header>
                 </article>
             </a>
-            <div className="mb-4 px-4 animate-fade-left sm:animate-delay-[600ms] animate-delay-[1500ms]">
+            <div className="mb-4 px-4 animate-fade-left sm:animate-delay-[600ms] md:animate-delay-[1000ms] animate-delay-[1500ms]">
                 <button className="text-gray-400 hover:text-gray-300"><Link to="/projects">See Full Projects Archive</Link> &#x2192; </button>
             </div>
         </nav>
