@@ -27,7 +27,7 @@ const Portfolio = () => {
           <Link to="/about" className="px-6 py-2 border border-gray-700 text-gray-300 hover:bg-gray-700 hover:text-white transition duration-300">
               More About Me
           </Link>
-            <a href="./TylerCV.pdf" class="block w-full sm:w-auto" target="_blank">
+            <a href="./TylerBrayResume.pdf" class="block w-full sm:w-auto" target="_blank">
               <button class="w-full px-6 py-2 bg-gray-700 hover:bg-gray-600 transition duration-300 text-white">
                 Download Resume
               </button>
