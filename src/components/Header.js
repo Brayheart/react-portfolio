@@ -38,7 +38,7 @@ const Portfolio = () => {
               More About Me
             </Link>
             <a
-              href="./TylerBrayResume.pdf"
+              href="./TylerBrayCV.pdf"
               class="block w-full sm:w-auto"
               target="_blank"
             >
